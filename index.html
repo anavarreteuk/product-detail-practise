@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="icon"
+      href="//int-asset1.cxnmarksandspencer.com/128.1/images/global/logo/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!-- CSS -->
+    <link href="/static/style.css" rel="stylesheet" />
+    <!-- Scripts -->
+    <script defer src="/static/data.js" charset="utf-8"></script>
+    <script defer src="/static/images.js" charset="utf-8"></script>
+    <script defer src="/static/configuration.js" charset="utf-8"></script>
+    <title>M & S Test</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <div class="left-column">
+        <img id="mainPicture" data-image="black"
+        src=https://asset1.marksandspencer.com/is/image/mands/SD_01_T49_3422_Y0_X_EC_0
+        alt="image" />
+      </div>
+      <div class="right-column">
+        <!-- Product Description -->
+        <div class="product-description">
+          <div class="product-price"></div>
+          <div class="product-color">
+            <span id="colorToShow">Selected color:</span>
+
+            <div id="coloursDiv" class="color-choose"></div>
+            <span id="sizeToShow">Selected size:</span>
+            <div class="size-choose">
+              <select id="selectSize"> </select>
+            </div>
+
+            <span id="quantityToShow">Qty:</span>
+            <div class="quantity-choose">
+              <select id="selectQuantity"> </select>
+            </div>
+
+            <div class="add-product">
+              <a href="#" class="cart-btn">Add to bag</a>
+            </div>
+          </div>
+          <p class="product-text"></p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
